@@ -1,0 +1,548 @@
+[20170308 10:25:09.623] [INFO] [main] [NERTest.java:15][main] %E6%88%90%E9%83%BD%E5%95%86%E6%8A%A5%E8%AE%B0%E8%80%85%E5%A7%9A%E6%B0%B8%E5%BF%A0
+[20170308 10:26:50.553] [INFO] [main] [NERTest.java:15][main] [B@7291c18f
+[20170308 11:10:58.106] [INFO] [main] [NERTest.java:17][main]  
+[20170308 11:11:07.601] [INFO] [main] [NERTest.java:17][main]  
+[20170308 11:11:25.062] [INFO] [main] [NERTest.java:17][main]  
+[20170308 11:11:38.340] [INFO] [main] [NERTest.java:17][main]  
+[20170308 11:19:49.364] [DEBUG] [main] [InternalLoggerFactory.java:59][newDefaultFactory] Using Log4J as the default logging framework
+[20170308 11:19:49.372] [DEBUG] [main] [PlatformDependent0.java:74][<clinit>] java.nio.Buffer.address: available
+[20170308 11:19:49.373] [DEBUG] [main] [PlatformDependent0.java:82][<clinit>] sun.misc.Unsafe.theUnsafe: available
+[20170308 11:19:49.375] [DEBUG] [main] [PlatformDependent0.java:91][<clinit>] sun.misc.Unsafe.copyMemory: available
+[20170308 11:19:49.375] [DEBUG] [main] [PlatformDependent0.java:152][<clinit>] java.nio.Bits.unaligned: true
+[20170308 11:19:49.376] [DEBUG] [main] [PlatformDependent0.java:155][<clinit>] java.nio.DirectByteBuffer.<init>(long, int): available
+[20170308 11:19:49.377] [DEBUG] [main] [Cleaner0.java:62][<clinit>] java.nio.ByteBuffer.cleaner(): available
+[20170308 11:19:49.378] [DEBUG] [main] [PlatformDependent.java:923][isWindows0] Platform: Windows
+[20170308 11:19:49.379] [DEBUG] [main] [PlatformDependent.java:1063][javaVersion0] Java version: 8
+[20170308 11:19:49.379] [DEBUG] [main] [PlatformDependent.java:1070][hasUnsafe0] -Dio.netty.noUnsafe: false
+[20170308 11:19:49.379] [DEBUG] [main] [PlatformDependent.java:1097][hasUnsafe0] sun.misc.Unsafe: available
+[20170308 11:19:49.380] [DEBUG] [main] [PlatformDependent.java:1172][hasJavassist0] -Dio.netty.noJavassist: false
+[20170308 11:19:49.381] [DEBUG] [main] [PlatformDependent.java:1185][hasJavassist0] Javassist: unavailable
+[20170308 11:19:49.381] [DEBUG] [main] [PlatformDependent.java:1186][hasJavassist0] You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[20170308 11:19:49.382] [DEBUG] [main] [PlatformDependent.java:1204][tmpdir0] -Dio.netty.tmpdir: C:\Users\admin\AppData\Local\Temp (java.io.tmpdir)
+[20170308 11:19:49.382] [DEBUG] [main] [PlatformDependent.java:1283][bitMode0] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[20170308 11:19:49.383] [DEBUG] [main] [PlatformDependent.java:115][<clinit>] -Dio.netty.noPreferDirect: false
+[20170308 11:19:49.384] [DEBUG] [main] [PlatformDependent.java:151][<clinit>] io.netty.maxDirectMemory: 1886912512 bytes
+[20170308 11:19:49.392] [DEBUG] [main] [AbstractByteBuf.java:52][<clinit>] -Dio.netty.buffer.bytebuf.checkAccessible: true
+[20170308 11:19:49.396] [DEBUG] [main] [ResourceLeakDetector.java:106][<clinit>] -Dio.netty.leakDetection.level: simple
+[20170308 11:19:49.396] [DEBUG] [main] [ResourceLeakDetector.java:107][<clinit>] -Dio.netty.leakDetection.maxRecords: 4
+[20170308 11:19:49.398] [DEBUG] [main] [ResourceLeakDetectorFactory.java:140][newResourceLeakDetector] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6ae40994
+[20170308 11:19:49.407] [DEBUG] [main] [PooledByteBufAllocator.java:107][<clinit>] -Dio.netty.allocator.numHeapArenas: 8
+[20170308 11:19:49.408] [DEBUG] [main] [PooledByteBufAllocator.java:108][<clinit>] -Dio.netty.allocator.numDirectArenas: 8
+[20170308 11:19:49.408] [DEBUG] [main] [PooledByteBufAllocator.java:110][<clinit>] -Dio.netty.allocator.pageSize: 8192
+[20170308 11:19:49.409] [DEBUG] [main] [PooledByteBufAllocator.java:115][<clinit>] -Dio.netty.allocator.maxOrder: 11
+[20170308 11:19:49.409] [DEBUG] [main] [PooledByteBufAllocator.java:119][<clinit>] -Dio.netty.allocator.chunkSize: 16777216
+[20170308 11:19:49.409] [DEBUG] [main] [PooledByteBufAllocator.java:120][<clinit>] -Dio.netty.allocator.tinyCacheSize: 512
+[20170308 11:19:49.410] [DEBUG] [main] [PooledByteBufAllocator.java:121][<clinit>] -Dio.netty.allocator.smallCacheSize: 256
+[20170308 11:19:49.410] [DEBUG] [main] [PooledByteBufAllocator.java:122][<clinit>] -Dio.netty.allocator.normalCacheSize: 64
+[20170308 11:19:49.410] [DEBUG] [main] [PooledByteBufAllocator.java:123][<clinit>] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[20170308 11:19:49.410] [DEBUG] [main] [PooledByteBufAllocator.java:124][<clinit>] -Dio.netty.allocator.cacheTrimInterval: 8192
+[20170308 11:19:49.419] [DEBUG] [main] [ByteBufUtil.java:80][<clinit>] -Dio.netty.allocator.type: pooled
+[20170308 11:19:49.420] [DEBUG] [main] [ByteBufUtil.java:89][<clinit>] -Dio.netty.threadLocalDirectBufferSize: 65536
+[20170308 11:19:49.420] [DEBUG] [main] [ByteBufUtil.java:92][<clinit>] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[20170308 11:20:55.975] [INFO] [main] [NERTest.java:22][main] --------------------
+[20170308 11:20:56.022] [DEBUG] [main] [InternalLoggerFactory.java:59][newDefaultFactory] Using Log4J as the default logging framework
+[20170308 11:20:56.029] [DEBUG] [main] [PlatformDependent0.java:74][<clinit>] java.nio.Buffer.address: available
+[20170308 11:20:56.031] [DEBUG] [main] [PlatformDependent0.java:82][<clinit>] sun.misc.Unsafe.theUnsafe: available
+[20170308 11:20:56.032] [DEBUG] [main] [PlatformDependent0.java:91][<clinit>] sun.misc.Unsafe.copyMemory: available
+[20170308 11:20:56.032] [DEBUG] [main] [PlatformDependent0.java:152][<clinit>] java.nio.Bits.unaligned: true
+[20170308 11:20:56.032] [DEBUG] [main] [PlatformDependent0.java:155][<clinit>] java.nio.DirectByteBuffer.<init>(long, int): available
+[20170308 11:20:56.033] [DEBUG] [main] [Cleaner0.java:62][<clinit>] java.nio.ByteBuffer.cleaner(): available
+[20170308 11:20:56.034] [DEBUG] [main] [PlatformDependent.java:923][isWindows0] Platform: Windows
+[20170308 11:20:56.034] [DEBUG] [main] [PlatformDependent.java:1063][javaVersion0] Java version: 8
+[20170308 11:20:56.035] [DEBUG] [main] [PlatformDependent.java:1070][hasUnsafe0] -Dio.netty.noUnsafe: false
+[20170308 11:20:56.035] [DEBUG] [main] [PlatformDependent.java:1097][hasUnsafe0] sun.misc.Unsafe: available
+[20170308 11:20:56.035] [DEBUG] [main] [PlatformDependent.java:1172][hasJavassist0] -Dio.netty.noJavassist: false
+[20170308 11:20:56.036] [DEBUG] [main] [PlatformDependent.java:1185][hasJavassist0] Javassist: unavailable
+[20170308 11:20:56.036] [DEBUG] [main] [PlatformDependent.java:1186][hasJavassist0] You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[20170308 11:20:56.036] [DEBUG] [main] [PlatformDependent.java:1204][tmpdir0] -Dio.netty.tmpdir: C:\Users\admin\AppData\Local\Temp (java.io.tmpdir)
+[20170308 11:20:56.038] [DEBUG] [main] [PlatformDependent.java:1283][bitMode0] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[20170308 11:20:56.038] [DEBUG] [main] [PlatformDependent.java:115][<clinit>] -Dio.netty.noPreferDirect: false
+[20170308 11:20:56.038] [DEBUG] [main] [PlatformDependent.java:151][<clinit>] io.netty.maxDirectMemory: 1886912512 bytes
+[20170308 11:20:56.046] [DEBUG] [main] [AbstractByteBuf.java:52][<clinit>] -Dio.netty.buffer.bytebuf.checkAccessible: true
+[20170308 11:20:56.050] [DEBUG] [main] [ResourceLeakDetector.java:106][<clinit>] -Dio.netty.leakDetection.level: simple
+[20170308 11:20:56.050] [DEBUG] [main] [ResourceLeakDetector.java:107][<clinit>] -Dio.netty.leakDetection.maxRecords: 4
+[20170308 11:20:56.051] [DEBUG] [main] [ResourceLeakDetectorFactory.java:140][newResourceLeakDetector] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3b95a09c
+[20170308 11:20:56.065] [DEBUG] [main] [PooledByteBufAllocator.java:107][<clinit>] -Dio.netty.allocator.numHeapArenas: 8
+[20170308 11:20:56.065] [DEBUG] [main] [PooledByteBufAllocator.java:108][<clinit>] -Dio.netty.allocator.numDirectArenas: 8
+[20170308 11:20:56.066] [DEBUG] [main] [PooledByteBufAllocator.java:110][<clinit>] -Dio.netty.allocator.pageSize: 8192
+[20170308 11:20:56.066] [DEBUG] [main] [PooledByteBufAllocator.java:115][<clinit>] -Dio.netty.allocator.maxOrder: 11
+[20170308 11:20:56.066] [DEBUG] [main] [PooledByteBufAllocator.java:119][<clinit>] -Dio.netty.allocator.chunkSize: 16777216
+[20170308 11:20:56.066] [DEBUG] [main] [PooledByteBufAllocator.java:120][<clinit>] -Dio.netty.allocator.tinyCacheSize: 512
+[20170308 11:20:56.066] [DEBUG] [main] [PooledByteBufAllocator.java:121][<clinit>] -Dio.netty.allocator.smallCacheSize: 256
+[20170308 11:20:56.067] [DEBUG] [main] [PooledByteBufAllocator.java:122][<clinit>] -Dio.netty.allocator.normalCacheSize: 64
+[20170308 11:20:56.067] [DEBUG] [main] [PooledByteBufAllocator.java:123][<clinit>] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[20170308 11:20:56.067] [DEBUG] [main] [PooledByteBufAllocator.java:124][<clinit>] -Dio.netty.allocator.cacheTrimInterval: 8192
+[20170308 11:20:56.080] [DEBUG] [main] [ByteBufUtil.java:80][<clinit>] -Dio.netty.allocator.type: pooled
+[20170308 11:20:56.081] [DEBUG] [main] [ByteBufUtil.java:89][<clinit>] -Dio.netty.threadLocalDirectBufferSize: 65536
+[20170308 11:20:56.081] [DEBUG] [main] [ByteBufUtil.java:92][<clinit>] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[20170308 11:21:25.299] [INFO] [main] [NERTest.java:22][main] --------------------
+[20170308 11:21:25.345] [DEBUG] [main] [InternalLoggerFactory.java:59][newDefaultFactory] Using Log4J as the default logging framework
+[20170308 11:21:25.353] [DEBUG] [main] [PlatformDependent0.java:74][<clinit>] java.nio.Buffer.address: available
+[20170308 11:21:25.355] [DEBUG] [main] [PlatformDependent0.java:82][<clinit>] sun.misc.Unsafe.theUnsafe: available
+[20170308 11:21:25.356] [DEBUG] [main] [PlatformDependent0.java:91][<clinit>] sun.misc.Unsafe.copyMemory: available
+[20170308 11:21:25.356] [DEBUG] [main] [PlatformDependent0.java:152][<clinit>] java.nio.Bits.unaligned: true
+[20170308 11:21:25.356] [DEBUG] [main] [PlatformDependent0.java:155][<clinit>] java.nio.DirectByteBuffer.<init>(long, int): available
+[20170308 11:21:25.357] [DEBUG] [main] [Cleaner0.java:62][<clinit>] java.nio.ByteBuffer.cleaner(): available
+[20170308 11:21:25.358] [DEBUG] [main] [PlatformDependent.java:923][isWindows0] Platform: Windows
+[20170308 11:21:25.358] [DEBUG] [main] [PlatformDependent.java:1063][javaVersion0] Java version: 8
+[20170308 11:21:25.359] [DEBUG] [main] [PlatformDependent.java:1070][hasUnsafe0] -Dio.netty.noUnsafe: false
+[20170308 11:21:25.359] [DEBUG] [main] [PlatformDependent.java:1097][hasUnsafe0] sun.misc.Unsafe: available
+[20170308 11:21:25.359] [DEBUG] [main] [PlatformDependent.java:1172][hasJavassist0] -Dio.netty.noJavassist: false
+[20170308 11:21:25.360] [DEBUG] [main] [PlatformDependent.java:1185][hasJavassist0] Javassist: unavailable
+[20170308 11:21:25.361] [DEBUG] [main] [PlatformDependent.java:1186][hasJavassist0] You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[20170308 11:21:25.361] [DEBUG] [main] [PlatformDependent.java:1204][tmpdir0] -Dio.netty.tmpdir: C:\Users\admin\AppData\Local\Temp (java.io.tmpdir)
+[20170308 11:21:25.362] [DEBUG] [main] [PlatformDependent.java:1283][bitMode0] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[20170308 11:21:25.363] [DEBUG] [main] [PlatformDependent.java:115][<clinit>] -Dio.netty.noPreferDirect: false
+[20170308 11:21:25.363] [DEBUG] [main] [PlatformDependent.java:151][<clinit>] io.netty.maxDirectMemory: 1886912512 bytes
+[20170308 11:21:25.370] [DEBUG] [main] [AbstractByteBuf.java:52][<clinit>] -Dio.netty.buffer.bytebuf.checkAccessible: true
+[20170308 11:21:25.373] [DEBUG] [main] [ResourceLeakDetector.java:106][<clinit>] -Dio.netty.leakDetection.level: simple
+[20170308 11:21:25.373] [DEBUG] [main] [ResourceLeakDetector.java:107][<clinit>] -Dio.netty.leakDetection.maxRecords: 4
+[20170308 11:21:25.375] [DEBUG] [main] [ResourceLeakDetectorFactory.java:140][newResourceLeakDetector] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3b95a09c
+[20170308 11:21:25.382] [DEBUG] [main] [PooledByteBufAllocator.java:107][<clinit>] -Dio.netty.allocator.numHeapArenas: 8
+[20170308 11:21:25.382] [DEBUG] [main] [PooledByteBufAllocator.java:108][<clinit>] -Dio.netty.allocator.numDirectArenas: 8
+[20170308 11:21:25.382] [DEBUG] [main] [PooledByteBufAllocator.java:110][<clinit>] -Dio.netty.allocator.pageSize: 8192
+[20170308 11:21:25.383] [DEBUG] [main] [PooledByteBufAllocator.java:115][<clinit>] -Dio.netty.allocator.maxOrder: 11
+[20170308 11:21:25.383] [DEBUG] [main] [PooledByteBufAllocator.java:119][<clinit>] -Dio.netty.allocator.chunkSize: 16777216
+[20170308 11:21:25.383] [DEBUG] [main] [PooledByteBufAllocator.java:120][<clinit>] -Dio.netty.allocator.tinyCacheSize: 512
+[20170308 11:21:25.383] [DEBUG] [main] [PooledByteBufAllocator.java:121][<clinit>] -Dio.netty.allocator.smallCacheSize: 256
+[20170308 11:21:25.383] [DEBUG] [main] [PooledByteBufAllocator.java:122][<clinit>] -Dio.netty.allocator.normalCacheSize: 64
+[20170308 11:21:25.384] [DEBUG] [main] [PooledByteBufAllocator.java:123][<clinit>] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[20170308 11:21:25.384] [DEBUG] [main] [PooledByteBufAllocator.java:124][<clinit>] -Dio.netty.allocator.cacheTrimInterval: 8192
+[20170308 11:21:25.396] [DEBUG] [main] [ByteBufUtil.java:80][<clinit>] -Dio.netty.allocator.type: pooled
+[20170308 11:21:25.397] [DEBUG] [main] [ByteBufUtil.java:89][<clinit>] -Dio.netty.threadLocalDirectBufferSize: 65536
+[20170308 11:21:25.397] [DEBUG] [main] [ByteBufUtil.java:92][<clinit>] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[20170308 11:21:25.413] [INFO] [main] [NERTest.java:24][main] --------------------
+[20170308 11:22:27.602] [INFO] [main] [NERTest.java:22][main] --------------------
+[20170308 11:22:27.650] [DEBUG] [main] [InternalLoggerFactory.java:59][newDefaultFactory] Using Log4J as the default logging framework
+[20170308 11:22:27.658] [DEBUG] [main] [PlatformDependent0.java:74][<clinit>] java.nio.Buffer.address: available
+[20170308 11:22:27.660] [DEBUG] [main] [PlatformDependent0.java:82][<clinit>] sun.misc.Unsafe.theUnsafe: available
+[20170308 11:22:27.661] [DEBUG] [main] [PlatformDependent0.java:91][<clinit>] sun.misc.Unsafe.copyMemory: available
+[20170308 11:22:27.661] [DEBUG] [main] [PlatformDependent0.java:152][<clinit>] java.nio.Bits.unaligned: true
+[20170308 11:22:27.661] [DEBUG] [main] [PlatformDependent0.java:155][<clinit>] java.nio.DirectByteBuffer.<init>(long, int): available
+[20170308 11:22:27.663] [DEBUG] [main] [Cleaner0.java:62][<clinit>] java.nio.ByteBuffer.cleaner(): available
+[20170308 11:22:27.663] [DEBUG] [main] [PlatformDependent.java:923][isWindows0] Platform: Windows
+[20170308 11:22:27.664] [DEBUG] [main] [PlatformDependent.java:1063][javaVersion0] Java version: 8
+[20170308 11:22:27.664] [DEBUG] [main] [PlatformDependent.java:1070][hasUnsafe0] -Dio.netty.noUnsafe: false
+[20170308 11:22:27.664] [DEBUG] [main] [PlatformDependent.java:1097][hasUnsafe0] sun.misc.Unsafe: available
+[20170308 11:22:27.665] [DEBUG] [main] [PlatformDependent.java:1172][hasJavassist0] -Dio.netty.noJavassist: false
+[20170308 11:22:27.665] [DEBUG] [main] [PlatformDependent.java:1185][hasJavassist0] Javassist: unavailable
+[20170308 11:22:27.665] [DEBUG] [main] [PlatformDependent.java:1186][hasJavassist0] You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[20170308 11:22:27.666] [DEBUG] [main] [PlatformDependent.java:1204][tmpdir0] -Dio.netty.tmpdir: C:\Users\admin\AppData\Local\Temp (java.io.tmpdir)
+[20170308 11:22:27.667] [DEBUG] [main] [PlatformDependent.java:1283][bitMode0] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[20170308 11:22:27.668] [DEBUG] [main] [PlatformDependent.java:115][<clinit>] -Dio.netty.noPreferDirect: false
+[20170308 11:22:27.668] [DEBUG] [main] [PlatformDependent.java:151][<clinit>] io.netty.maxDirectMemory: 1886912512 bytes
+[20170308 11:22:27.675] [DEBUG] [main] [AbstractByteBuf.java:52][<clinit>] -Dio.netty.buffer.bytebuf.checkAccessible: true
+[20170308 11:22:27.678] [DEBUG] [main] [ResourceLeakDetector.java:106][<clinit>] -Dio.netty.leakDetection.level: simple
+[20170308 11:22:27.679] [DEBUG] [main] [ResourceLeakDetector.java:107][<clinit>] -Dio.netty.leakDetection.maxRecords: 4
+[20170308 11:22:27.680] [DEBUG] [main] [ResourceLeakDetectorFactory.java:140][newResourceLeakDetector] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3b95a09c
+[20170308 11:22:27.688] [DEBUG] [main] [PooledByteBufAllocator.java:107][<clinit>] -Dio.netty.allocator.numHeapArenas: 8
+[20170308 11:22:27.688] [DEBUG] [main] [PooledByteBufAllocator.java:108][<clinit>] -Dio.netty.allocator.numDirectArenas: 8
+[20170308 11:22:27.689] [DEBUG] [main] [PooledByteBufAllocator.java:110][<clinit>] -Dio.netty.allocator.pageSize: 8192
+[20170308 11:22:27.689] [DEBUG] [main] [PooledByteBufAllocator.java:115][<clinit>] -Dio.netty.allocator.maxOrder: 11
+[20170308 11:22:27.689] [DEBUG] [main] [PooledByteBufAllocator.java:119][<clinit>] -Dio.netty.allocator.chunkSize: 16777216
+[20170308 11:22:27.689] [DEBUG] [main] [PooledByteBufAllocator.java:120][<clinit>] -Dio.netty.allocator.tinyCacheSize: 512
+[20170308 11:22:27.689] [DEBUG] [main] [PooledByteBufAllocator.java:121][<clinit>] -Dio.netty.allocator.smallCacheSize: 256
+[20170308 11:22:27.690] [DEBUG] [main] [PooledByteBufAllocator.java:122][<clinit>] -Dio.netty.allocator.normalCacheSize: 64
+[20170308 11:22:27.690] [DEBUG] [main] [PooledByteBufAllocator.java:123][<clinit>] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[20170308 11:22:27.690] [DEBUG] [main] [PooledByteBufAllocator.java:124][<clinit>] -Dio.netty.allocator.cacheTrimInterval: 8192
+[20170308 11:22:27.699] [DEBUG] [main] [ByteBufUtil.java:80][<clinit>] -Dio.netty.allocator.type: pooled
+[20170308 11:22:27.699] [DEBUG] [main] [ByteBufUtil.java:89][<clinit>] -Dio.netty.threadLocalDirectBufferSize: 65536
+[20170308 11:22:27.700] [DEBUG] [main] [ByteBufUtil.java:92][<clinit>] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[20170308 11:22:27.712] [INFO] [main] [NERTest.java:23][main]          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| e6 88 90                                        |...             |
++--------+-------------------------------------------------+----------------+
+[20170308 11:22:27.712] [INFO] [main] [NERTest.java:24][main] --------------------
+[20170308 15:08:46.479] [INFO] [main] [NERTest.java:22][main] --------------------
+[20170308 15:08:46.517] [DEBUG] [main] [InternalLoggerFactory.java:59][newDefaultFactory] Using Log4J as the default logging framework
+[20170308 15:08:46.525] [DEBUG] [main] [PlatformDependent0.java:74][<clinit>] java.nio.Buffer.address: available
+[20170308 15:08:46.528] [DEBUG] [main] [PlatformDependent0.java:82][<clinit>] sun.misc.Unsafe.theUnsafe: available
+[20170308 15:08:46.528] [DEBUG] [main] [PlatformDependent0.java:91][<clinit>] sun.misc.Unsafe.copyMemory: available
+[20170308 15:08:46.529] [DEBUG] [main] [PlatformDependent0.java:152][<clinit>] java.nio.Bits.unaligned: true
+[20170308 15:08:46.529] [DEBUG] [main] [PlatformDependent0.java:155][<clinit>] java.nio.DirectByteBuffer.<init>(long, int): available
+[20170308 15:08:46.530] [DEBUG] [main] [Cleaner0.java:62][<clinit>] java.nio.ByteBuffer.cleaner(): available
+[20170308 15:08:46.531] [DEBUG] [main] [PlatformDependent.java:923][isWindows0] Platform: Windows
+[20170308 15:08:46.531] [DEBUG] [main] [PlatformDependent.java:1063][javaVersion0] Java version: 8
+[20170308 15:08:46.531] [DEBUG] [main] [PlatformDependent.java:1070][hasUnsafe0] -Dio.netty.noUnsafe: false
+[20170308 15:08:46.532] [DEBUG] [main] [PlatformDependent.java:1097][hasUnsafe0] sun.misc.Unsafe: available
+[20170308 15:08:46.532] [DEBUG] [main] [PlatformDependent.java:1172][hasJavassist0] -Dio.netty.noJavassist: false
+[20170308 15:08:46.533] [DEBUG] [main] [PlatformDependent.java:1185][hasJavassist0] Javassist: unavailable
+[20170308 15:08:46.533] [DEBUG] [main] [PlatformDependent.java:1186][hasJavassist0] You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[20170308 15:08:46.533] [DEBUG] [main] [PlatformDependent.java:1204][tmpdir0] -Dio.netty.tmpdir: C:\Users\admin\AppData\Local\Temp (java.io.tmpdir)
+[20170308 15:08:46.535] [DEBUG] [main] [PlatformDependent.java:1283][bitMode0] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[20170308 15:08:46.535] [DEBUG] [main] [PlatformDependent.java:115][<clinit>] -Dio.netty.noPreferDirect: false
+[20170308 15:08:46.536] [DEBUG] [main] [PlatformDependent.java:151][<clinit>] io.netty.maxDirectMemory: 1886912512 bytes
+[20170308 15:08:46.546] [DEBUG] [main] [AbstractByteBuf.java:52][<clinit>] -Dio.netty.buffer.bytebuf.checkAccessible: true
+[20170308 15:08:46.549] [DEBUG] [main] [ResourceLeakDetector.java:106][<clinit>] -Dio.netty.leakDetection.level: simple
+[20170308 15:08:46.550] [DEBUG] [main] [ResourceLeakDetector.java:107][<clinit>] -Dio.netty.leakDetection.maxRecords: 4
+[20170308 15:08:46.551] [DEBUG] [main] [ResourceLeakDetectorFactory.java:140][newResourceLeakDetector] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3b95a09c
+[20170308 15:08:46.559] [DEBUG] [main] [PooledByteBufAllocator.java:107][<clinit>] -Dio.netty.allocator.numHeapArenas: 8
+[20170308 15:08:46.559] [DEBUG] [main] [PooledByteBufAllocator.java:108][<clinit>] -Dio.netty.allocator.numDirectArenas: 8
+[20170308 15:08:46.560] [DEBUG] [main] [PooledByteBufAllocator.java:110][<clinit>] -Dio.netty.allocator.pageSize: 8192
+[20170308 15:08:46.560] [DEBUG] [main] [PooledByteBufAllocator.java:115][<clinit>] -Dio.netty.allocator.maxOrder: 11
+[20170308 15:08:46.560] [DEBUG] [main] [PooledByteBufAllocator.java:119][<clinit>] -Dio.netty.allocator.chunkSize: 16777216
+[20170308 15:08:46.560] [DEBUG] [main] [PooledByteBufAllocator.java:120][<clinit>] -Dio.netty.allocator.tinyCacheSize: 512
+[20170308 15:08:46.560] [DEBUG] [main] [PooledByteBufAllocator.java:121][<clinit>] -Dio.netty.allocator.smallCacheSize: 256
+[20170308 15:08:46.560] [DEBUG] [main] [PooledByteBufAllocator.java:122][<clinit>] -Dio.netty.allocator.normalCacheSize: 64
+[20170308 15:08:46.560] [DEBUG] [main] [PooledByteBufAllocator.java:123][<clinit>] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[20170308 15:08:46.561] [DEBUG] [main] [PooledByteBufAllocator.java:124][<clinit>] -Dio.netty.allocator.cacheTrimInterval: 8192
+[20170308 15:08:46.577] [DEBUG] [main] [ByteBufUtil.java:80][<clinit>] -Dio.netty.allocator.type: pooled
+[20170308 15:08:46.577] [DEBUG] [main] [ByteBufUtil.java:89][<clinit>] -Dio.netty.threadLocalDirectBufferSize: 65536
+[20170308 15:08:46.577] [DEBUG] [main] [ByteBufUtil.java:92][<clinit>] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[20170308 15:08:46.592] [INFO] [main] [NERTest.java:23][main]          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| e6 88 90                                        |...             |
++--------+-------------------------------------------------+----------------+
+[20170308 15:08:46.592] [INFO] [main] [NERTest.java:24][main] --------------------
+[20170308 15:17:56.663] [INFO] [main] [NERTest.java:21][main] --------------------
+[20170308 15:17:56.711] [DEBUG] [main] [InternalLoggerFactory.java:59][newDefaultFactory] Using Log4J as the default logging framework
+[20170308 15:17:56.720] [DEBUG] [main] [PlatformDependent0.java:74][<clinit>] java.nio.Buffer.address: available
+[20170308 15:17:56.722] [DEBUG] [main] [PlatformDependent0.java:82][<clinit>] sun.misc.Unsafe.theUnsafe: available
+[20170308 15:17:56.723] [DEBUG] [main] [PlatformDependent0.java:91][<clinit>] sun.misc.Unsafe.copyMemory: available
+[20170308 15:17:56.723] [DEBUG] [main] [PlatformDependent0.java:152][<clinit>] java.nio.Bits.unaligned: true
+[20170308 15:17:56.723] [DEBUG] [main] [PlatformDependent0.java:155][<clinit>] java.nio.DirectByteBuffer.<init>(long, int): available
+[20170308 15:17:56.724] [DEBUG] [main] [Cleaner0.java:62][<clinit>] java.nio.ByteBuffer.cleaner(): available
+[20170308 15:17:56.725] [DEBUG] [main] [PlatformDependent.java:923][isWindows0] Platform: Windows
+[20170308 15:17:56.725] [DEBUG] [main] [PlatformDependent.java:1063][javaVersion0] Java version: 8
+[20170308 15:17:56.726] [DEBUG] [main] [PlatformDependent.java:1070][hasUnsafe0] -Dio.netty.noUnsafe: false
+[20170308 15:17:56.726] [DEBUG] [main] [PlatformDependent.java:1097][hasUnsafe0] sun.misc.Unsafe: available
+[20170308 15:17:56.727] [DEBUG] [main] [PlatformDependent.java:1172][hasJavassist0] -Dio.netty.noJavassist: false
+[20170308 15:17:56.727] [DEBUG] [main] [PlatformDependent.java:1185][hasJavassist0] Javassist: unavailable
+[20170308 15:17:56.728] [DEBUG] [main] [PlatformDependent.java:1186][hasJavassist0] You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[20170308 15:17:56.728] [DEBUG] [main] [PlatformDependent.java:1204][tmpdir0] -Dio.netty.tmpdir: C:\Users\admin\AppData\Local\Temp (java.io.tmpdir)
+[20170308 15:17:56.730] [DEBUG] [main] [PlatformDependent.java:1283][bitMode0] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[20170308 15:17:56.730] [DEBUG] [main] [PlatformDependent.java:115][<clinit>] -Dio.netty.noPreferDirect: false
+[20170308 15:17:56.731] [DEBUG] [main] [PlatformDependent.java:151][<clinit>] io.netty.maxDirectMemory: 1886912512 bytes
+[20170308 15:17:56.740] [DEBUG] [main] [AbstractByteBuf.java:52][<clinit>] -Dio.netty.buffer.bytebuf.checkAccessible: true
+[20170308 15:17:56.744] [DEBUG] [main] [ResourceLeakDetector.java:106][<clinit>] -Dio.netty.leakDetection.level: simple
+[20170308 15:17:56.744] [DEBUG] [main] [ResourceLeakDetector.java:107][<clinit>] -Dio.netty.leakDetection.maxRecords: 4
+[20170308 15:17:56.746] [DEBUG] [main] [ResourceLeakDetectorFactory.java:140][newResourceLeakDetector] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1a93a7ca
+[20170308 15:17:56.755] [DEBUG] [main] [PooledByteBufAllocator.java:107][<clinit>] -Dio.netty.allocator.numHeapArenas: 8
+[20170308 15:17:56.755] [DEBUG] [main] [PooledByteBufAllocator.java:108][<clinit>] -Dio.netty.allocator.numDirectArenas: 8
+[20170308 15:17:56.755] [DEBUG] [main] [PooledByteBufAllocator.java:110][<clinit>] -Dio.netty.allocator.pageSize: 8192
+[20170308 15:17:56.756] [DEBUG] [main] [PooledByteBufAllocator.java:115][<clinit>] -Dio.netty.allocator.maxOrder: 11
+[20170308 15:17:56.756] [DEBUG] [main] [PooledByteBufAllocator.java:119][<clinit>] -Dio.netty.allocator.chunkSize: 16777216
+[20170308 15:17:56.756] [DEBUG] [main] [PooledByteBufAllocator.java:120][<clinit>] -Dio.netty.allocator.tinyCacheSize: 512
+[20170308 15:17:56.756] [DEBUG] [main] [PooledByteBufAllocator.java:121][<clinit>] -Dio.netty.allocator.smallCacheSize: 256
+[20170308 15:17:56.756] [DEBUG] [main] [PooledByteBufAllocator.java:122][<clinit>] -Dio.netty.allocator.normalCacheSize: 64
+[20170308 15:17:56.756] [DEBUG] [main] [PooledByteBufAllocator.java:123][<clinit>] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[20170308 15:17:56.757] [DEBUG] [main] [PooledByteBufAllocator.java:124][<clinit>] -Dio.netty.allocator.cacheTrimInterval: 8192
+[20170308 15:17:56.767] [DEBUG] [main] [ByteBufUtil.java:80][<clinit>] -Dio.netty.allocator.type: pooled
+[20170308 15:17:56.767] [DEBUG] [main] [ByteBufUtil.java:89][<clinit>] -Dio.netty.threadLocalDirectBufferSize: 65536
+[20170308 15:17:56.767] [DEBUG] [main] [ByteBufUtil.java:92][<clinit>] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[20170308 15:17:56.781] [INFO] [main] [NERTest.java:22][main]          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| e6 88 90                                        |...             |
++--------+-------------------------------------------------+----------------+
+[20170308 15:17:56.781] [INFO] [main] [NERTest.java:23][main] --------------------
+[20170308 15:17:56.783] [INFO] [main] [NERTest.java:27][main] \u6210
+[20170308 15:18:24.372] [INFO] [main] [NERTest.java:21][main] --------------------
+[20170308 15:18:24.431] [DEBUG] [main] [InternalLoggerFactory.java:59][newDefaultFactory] Using Log4J as the default logging framework
+[20170308 15:18:24.442] [DEBUG] [main] [PlatformDependent0.java:74][<clinit>] java.nio.Buffer.address: available
+[20170308 15:18:24.444] [DEBUG] [main] [PlatformDependent0.java:82][<clinit>] sun.misc.Unsafe.theUnsafe: available
+[20170308 15:18:24.444] [DEBUG] [main] [PlatformDependent0.java:91][<clinit>] sun.misc.Unsafe.copyMemory: available
+[20170308 15:18:24.445] [DEBUG] [main] [PlatformDependent0.java:152][<clinit>] java.nio.Bits.unaligned: true
+[20170308 15:18:24.445] [DEBUG] [main] [PlatformDependent0.java:155][<clinit>] java.nio.DirectByteBuffer.<init>(long, int): available
+[20170308 15:18:24.446] [DEBUG] [main] [Cleaner0.java:62][<clinit>] java.nio.ByteBuffer.cleaner(): available
+[20170308 15:18:24.447] [DEBUG] [main] [PlatformDependent.java:923][isWindows0] Platform: Windows
+[20170308 15:18:24.448] [DEBUG] [main] [PlatformDependent.java:1063][javaVersion0] Java version: 8
+[20170308 15:18:24.448] [DEBUG] [main] [PlatformDependent.java:1070][hasUnsafe0] -Dio.netty.noUnsafe: false
+[20170308 15:18:24.448] [DEBUG] [main] [PlatformDependent.java:1097][hasUnsafe0] sun.misc.Unsafe: available
+[20170308 15:18:24.448] [DEBUG] [main] [PlatformDependent.java:1172][hasJavassist0] -Dio.netty.noJavassist: false
+[20170308 15:18:24.450] [DEBUG] [main] [PlatformDependent.java:1185][hasJavassist0] Javassist: unavailable
+[20170308 15:18:24.450] [DEBUG] [main] [PlatformDependent.java:1186][hasJavassist0] You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[20170308 15:18:24.450] [DEBUG] [main] [PlatformDependent.java:1204][tmpdir0] -Dio.netty.tmpdir: C:\Users\admin\AppData\Local\Temp (java.io.tmpdir)
+[20170308 15:18:24.453] [DEBUG] [main] [PlatformDependent.java:1283][bitMode0] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[20170308 15:18:24.453] [DEBUG] [main] [PlatformDependent.java:115][<clinit>] -Dio.netty.noPreferDirect: false
+[20170308 15:18:24.453] [DEBUG] [main] [PlatformDependent.java:151][<clinit>] io.netty.maxDirectMemory: 1886912512 bytes
+[20170308 15:18:24.463] [DEBUG] [main] [AbstractByteBuf.java:52][<clinit>] -Dio.netty.buffer.bytebuf.checkAccessible: true
+[20170308 15:18:24.467] [DEBUG] [main] [ResourceLeakDetector.java:106][<clinit>] -Dio.netty.leakDetection.level: simple
+[20170308 15:18:24.468] [DEBUG] [main] [ResourceLeakDetector.java:107][<clinit>] -Dio.netty.leakDetection.maxRecords: 4
+[20170308 15:18:24.470] [DEBUG] [main] [ResourceLeakDetectorFactory.java:140][newResourceLeakDetector] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2286778
+[20170308 15:18:24.480] [DEBUG] [main] [PooledByteBufAllocator.java:107][<clinit>] -Dio.netty.allocator.numHeapArenas: 8
+[20170308 15:18:24.480] [DEBUG] [main] [PooledByteBufAllocator.java:108][<clinit>] -Dio.netty.allocator.numDirectArenas: 8
+[20170308 15:18:24.481] [DEBUG] [main] [PooledByteBufAllocator.java:110][<clinit>] -Dio.netty.allocator.pageSize: 8192
+[20170308 15:18:24.481] [DEBUG] [main] [PooledByteBufAllocator.java:115][<clinit>] -Dio.netty.allocator.maxOrder: 11
+[20170308 15:18:24.481] [DEBUG] [main] [PooledByteBufAllocator.java:119][<clinit>] -Dio.netty.allocator.chunkSize: 16777216
+[20170308 15:18:24.481] [DEBUG] [main] [PooledByteBufAllocator.java:120][<clinit>] -Dio.netty.allocator.tinyCacheSize: 512
+[20170308 15:18:24.481] [DEBUG] [main] [PooledByteBufAllocator.java:121][<clinit>] -Dio.netty.allocator.smallCacheSize: 256
+[20170308 15:18:24.482] [DEBUG] [main] [PooledByteBufAllocator.java:122][<clinit>] -Dio.netty.allocator.normalCacheSize: 64
+[20170308 15:18:24.482] [DEBUG] [main] [PooledByteBufAllocator.java:123][<clinit>] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[20170308 15:18:24.482] [DEBUG] [main] [PooledByteBufAllocator.java:124][<clinit>] -Dio.netty.allocator.cacheTrimInterval: 8192
+[20170308 15:18:24.493] [DEBUG] [main] [ByteBufUtil.java:80][<clinit>] -Dio.netty.allocator.type: pooled
+[20170308 15:18:24.493] [DEBUG] [main] [ByteBufUtil.java:89][<clinit>] -Dio.netty.threadLocalDirectBufferSize: 65536
+[20170308 15:18:24.493] [DEBUG] [main] [ByteBufUtil.java:92][<clinit>] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[20170308 15:18:24.507] [INFO] [main] [NERTest.java:22][main]          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| e6 88 90                                        |...             |
++--------+-------------------------------------------------+----------------+
+[20170308 15:18:24.507] [INFO] [main] [NERTest.java:23][main] --------------------
+[20170308 15:19:48.903] [INFO] [main] [NERTest.java:27][main] \u6210
+[20170308 15:20:08.497] [INFO] [main] [NERTest.java:21][main] --------------------
+[20170308 15:20:08.565] [DEBUG] [main] [InternalLoggerFactory.java:59][newDefaultFactory] Using Log4J as the default logging framework
+[20170308 15:20:08.575] [DEBUG] [main] [PlatformDependent0.java:74][<clinit>] java.nio.Buffer.address: available
+[20170308 15:20:08.578] [DEBUG] [main] [PlatformDependent0.java:82][<clinit>] sun.misc.Unsafe.theUnsafe: available
+[20170308 15:20:08.578] [DEBUG] [main] [PlatformDependent0.java:91][<clinit>] sun.misc.Unsafe.copyMemory: available
+[20170308 15:20:08.579] [DEBUG] [main] [PlatformDependent0.java:152][<clinit>] java.nio.Bits.unaligned: true
+[20170308 15:20:08.579] [DEBUG] [main] [PlatformDependent0.java:155][<clinit>] java.nio.DirectByteBuffer.<init>(long, int): available
+[20170308 15:20:08.581] [DEBUG] [main] [Cleaner0.java:62][<clinit>] java.nio.ByteBuffer.cleaner(): available
+[20170308 15:20:08.582] [DEBUG] [main] [PlatformDependent.java:923][isWindows0] Platform: Windows
+[20170308 15:20:08.583] [DEBUG] [main] [PlatformDependent.java:1063][javaVersion0] Java version: 8
+[20170308 15:20:08.583] [DEBUG] [main] [PlatformDependent.java:1070][hasUnsafe0] -Dio.netty.noUnsafe: false
+[20170308 15:20:08.584] [DEBUG] [main] [PlatformDependent.java:1097][hasUnsafe0] sun.misc.Unsafe: available
+[20170308 15:20:08.584] [DEBUG] [main] [PlatformDependent.java:1172][hasJavassist0] -Dio.netty.noJavassist: false
+[20170308 15:20:08.585] [DEBUG] [main] [PlatformDependent.java:1185][hasJavassist0] Javassist: unavailable
+[20170308 15:20:08.585] [DEBUG] [main] [PlatformDependent.java:1186][hasJavassist0] You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[20170308 15:20:08.586] [DEBUG] [main] [PlatformDependent.java:1204][tmpdir0] -Dio.netty.tmpdir: C:\Users\admin\AppData\Local\Temp (java.io.tmpdir)
+[20170308 15:20:08.588] [DEBUG] [main] [PlatformDependent.java:1283][bitMode0] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[20170308 15:20:08.588] [DEBUG] [main] [PlatformDependent.java:115][<clinit>] -Dio.netty.noPreferDirect: false
+[20170308 15:20:08.588] [DEBUG] [main] [PlatformDependent.java:151][<clinit>] io.netty.maxDirectMemory: 1886912512 bytes
+[20170308 15:20:08.598] [DEBUG] [main] [AbstractByteBuf.java:52][<clinit>] -Dio.netty.buffer.bytebuf.checkAccessible: true
+[20170308 15:20:08.602] [DEBUG] [main] [ResourceLeakDetector.java:106][<clinit>] -Dio.netty.leakDetection.level: simple
+[20170308 15:20:08.602] [DEBUG] [main] [ResourceLeakDetector.java:107][<clinit>] -Dio.netty.leakDetection.maxRecords: 4
+[20170308 15:20:08.604] [DEBUG] [main] [ResourceLeakDetectorFactory.java:140][newResourceLeakDetector] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2286778
+[20170308 15:20:08.612] [DEBUG] [main] [PooledByteBufAllocator.java:107][<clinit>] -Dio.netty.allocator.numHeapArenas: 8
+[20170308 15:20:08.612] [DEBUG] [main] [PooledByteBufAllocator.java:108][<clinit>] -Dio.netty.allocator.numDirectArenas: 8
+[20170308 15:20:08.613] [DEBUG] [main] [PooledByteBufAllocator.java:110][<clinit>] -Dio.netty.allocator.pageSize: 8192
+[20170308 15:20:08.613] [DEBUG] [main] [PooledByteBufAllocator.java:115][<clinit>] -Dio.netty.allocator.maxOrder: 11
+[20170308 15:20:08.613] [DEBUG] [main] [PooledByteBufAllocator.java:119][<clinit>] -Dio.netty.allocator.chunkSize: 16777216
+[20170308 15:20:08.613] [DEBUG] [main] [PooledByteBufAllocator.java:120][<clinit>] -Dio.netty.allocator.tinyCacheSize: 512
+[20170308 15:20:08.613] [DEBUG] [main] [PooledByteBufAllocator.java:121][<clinit>] -Dio.netty.allocator.smallCacheSize: 256
+[20170308 15:20:08.614] [DEBUG] [main] [PooledByteBufAllocator.java:122][<clinit>] -Dio.netty.allocator.normalCacheSize: 64
+[20170308 15:20:08.614] [DEBUG] [main] [PooledByteBufAllocator.java:123][<clinit>] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[20170308 15:20:08.614] [DEBUG] [main] [PooledByteBufAllocator.java:124][<clinit>] -Dio.netty.allocator.cacheTrimInterval: 8192
+[20170308 15:20:08.623] [DEBUG] [main] [ByteBufUtil.java:80][<clinit>] -Dio.netty.allocator.type: pooled
+[20170308 15:20:08.623] [DEBUG] [main] [ByteBufUtil.java:89][<clinit>] -Dio.netty.threadLocalDirectBufferSize: 65536
+[20170308 15:20:08.624] [DEBUG] [main] [ByteBufUtil.java:92][<clinit>] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[20170308 15:20:08.637] [INFO] [main] [NERTest.java:22][main]          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| e6 88 90                                        |...             |
++--------+-------------------------------------------------+----------------+
+[20170308 15:20:08.637] [INFO] [main] [NERTest.java:23][main] --------------------
+[20170308 15:20:14.460] [INFO] [main] [NERTest.java:27][main] \u6210
+[20170308 15:27:07.502] [INFO] [main] [NERTest.java:28][main] \61\62\63
+[20170308 15:39:57.781] [INFO] [main] [NERTest.java:21][main] --------------------
+[20170308 15:39:57.828] [DEBUG] [main] [InternalLoggerFactory.java:59][newDefaultFactory] Using Log4J as the default logging framework
+[20170308 15:39:57.835] [DEBUG] [main] [PlatformDependent0.java:74][<clinit>] java.nio.Buffer.address: available
+[20170308 15:39:57.837] [DEBUG] [main] [PlatformDependent0.java:82][<clinit>] sun.misc.Unsafe.theUnsafe: available
+[20170308 15:39:57.838] [DEBUG] [main] [PlatformDependent0.java:91][<clinit>] sun.misc.Unsafe.copyMemory: available
+[20170308 15:39:57.838] [DEBUG] [main] [PlatformDependent0.java:152][<clinit>] java.nio.Bits.unaligned: true
+[20170308 15:39:57.838] [DEBUG] [main] [PlatformDependent0.java:155][<clinit>] java.nio.DirectByteBuffer.<init>(long, int): available
+[20170308 15:39:57.839] [DEBUG] [main] [Cleaner0.java:62][<clinit>] java.nio.ByteBuffer.cleaner(): available
+[20170308 15:39:57.840] [DEBUG] [main] [PlatformDependent.java:923][isWindows0] Platform: Windows
+[20170308 15:39:57.840] [DEBUG] [main] [PlatformDependent.java:1063][javaVersion0] Java version: 8
+[20170308 15:39:57.841] [DEBUG] [main] [PlatformDependent.java:1070][hasUnsafe0] -Dio.netty.noUnsafe: false
+[20170308 15:39:57.841] [DEBUG] [main] [PlatformDependent.java:1097][hasUnsafe0] sun.misc.Unsafe: available
+[20170308 15:39:57.841] [DEBUG] [main] [PlatformDependent.java:1172][hasJavassist0] -Dio.netty.noJavassist: false
+[20170308 15:39:57.843] [DEBUG] [main] [PlatformDependent.java:1185][hasJavassist0] Javassist: unavailable
+[20170308 15:39:57.843] [DEBUG] [main] [PlatformDependent.java:1186][hasJavassist0] You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[20170308 15:39:57.843] [DEBUG] [main] [PlatformDependent.java:1204][tmpdir0] -Dio.netty.tmpdir: C:\Users\admin\AppData\Local\Temp (java.io.tmpdir)
+[20170308 15:39:57.845] [DEBUG] [main] [PlatformDependent.java:1283][bitMode0] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[20170308 15:39:57.846] [DEBUG] [main] [PlatformDependent.java:115][<clinit>] -Dio.netty.noPreferDirect: false
+[20170308 15:39:57.846] [DEBUG] [main] [PlatformDependent.java:151][<clinit>] io.netty.maxDirectMemory: 1886912512 bytes
+[20170308 15:39:57.857] [DEBUG] [main] [AbstractByteBuf.java:52][<clinit>] -Dio.netty.buffer.bytebuf.checkAccessible: true
+[20170308 15:39:57.861] [DEBUG] [main] [ResourceLeakDetector.java:106][<clinit>] -Dio.netty.leakDetection.level: simple
+[20170308 15:39:57.861] [DEBUG] [main] [ResourceLeakDetector.java:107][<clinit>] -Dio.netty.leakDetection.maxRecords: 4
+[20170308 15:39:57.862] [DEBUG] [main] [ResourceLeakDetectorFactory.java:140][newResourceLeakDetector] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1a93a7ca
+[20170308 15:39:57.871] [DEBUG] [main] [PooledByteBufAllocator.java:107][<clinit>] -Dio.netty.allocator.numHeapArenas: 8
+[20170308 15:39:57.871] [DEBUG] [main] [PooledByteBufAllocator.java:108][<clinit>] -Dio.netty.allocator.numDirectArenas: 8
+[20170308 15:39:57.871] [DEBUG] [main] [PooledByteBufAllocator.java:110][<clinit>] -Dio.netty.allocator.pageSize: 8192
+[20170308 15:39:57.871] [DEBUG] [main] [PooledByteBufAllocator.java:115][<clinit>] -Dio.netty.allocator.maxOrder: 11
+[20170308 15:39:57.871] [DEBUG] [main] [PooledByteBufAllocator.java:119][<clinit>] -Dio.netty.allocator.chunkSize: 16777216
+[20170308 15:39:57.872] [DEBUG] [main] [PooledByteBufAllocator.java:120][<clinit>] -Dio.netty.allocator.tinyCacheSize: 512
+[20170308 15:39:57.872] [DEBUG] [main] [PooledByteBufAllocator.java:121][<clinit>] -Dio.netty.allocator.smallCacheSize: 256
+[20170308 15:39:57.872] [DEBUG] [main] [PooledByteBufAllocator.java:122][<clinit>] -Dio.netty.allocator.normalCacheSize: 64
+[20170308 15:39:57.872] [DEBUG] [main] [PooledByteBufAllocator.java:123][<clinit>] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[20170308 15:39:57.872] [DEBUG] [main] [PooledByteBufAllocator.java:124][<clinit>] -Dio.netty.allocator.cacheTrimInterval: 8192
+[20170308 15:39:57.881] [DEBUG] [main] [ByteBufUtil.java:80][<clinit>] -Dio.netty.allocator.type: pooled
+[20170308 15:39:57.882] [DEBUG] [main] [ByteBufUtil.java:89][<clinit>] -Dio.netty.threadLocalDirectBufferSize: 65536
+[20170308 15:39:57.882] [DEBUG] [main] [ByteBufUtil.java:92][<clinit>] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[20170308 15:39:57.894] [INFO] [main] [NERTest.java:22][main]          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| e6 88 90                                        |...             |
++--------+-------------------------------------------------+----------------+
+[20170308 15:39:57.894] [INFO] [main] [NERTest.java:23][main] --------------------
+[20170308 15:39:57.895] [INFO] [main] [NERTest.java:27][main] \u6210
+[20170308 15:39:57.896] [INFO] [main] [NERTest.java:28][main] \61\62\63
+[20170308 15:41:41.093] [INFO] [main] [NERTest.java:21][main] --------------------
+[20170308 15:41:41.151] [DEBUG] [main] [InternalLoggerFactory.java:59][newDefaultFactory] Using Log4J as the default logging framework
+[20170308 15:41:41.162] [DEBUG] [main] [PlatformDependent0.java:74][<clinit>] java.nio.Buffer.address: available
+[20170308 15:41:41.164] [DEBUG] [main] [PlatformDependent0.java:82][<clinit>] sun.misc.Unsafe.theUnsafe: available
+[20170308 15:41:41.165] [DEBUG] [main] [PlatformDependent0.java:91][<clinit>] sun.misc.Unsafe.copyMemory: available
+[20170308 15:41:41.165] [DEBUG] [main] [PlatformDependent0.java:152][<clinit>] java.nio.Bits.unaligned: true
+[20170308 15:41:41.165] [DEBUG] [main] [PlatformDependent0.java:155][<clinit>] java.nio.DirectByteBuffer.<init>(long, int): available
+[20170308 15:41:41.166] [DEBUG] [main] [Cleaner0.java:62][<clinit>] java.nio.ByteBuffer.cleaner(): available
+[20170308 15:41:41.167] [DEBUG] [main] [PlatformDependent.java:923][isWindows0] Platform: Windows
+[20170308 15:41:41.168] [DEBUG] [main] [PlatformDependent.java:1063][javaVersion0] Java version: 8
+[20170308 15:41:41.168] [DEBUG] [main] [PlatformDependent.java:1070][hasUnsafe0] -Dio.netty.noUnsafe: false
+[20170308 15:41:41.168] [DEBUG] [main] [PlatformDependent.java:1097][hasUnsafe0] sun.misc.Unsafe: available
+[20170308 15:41:41.168] [DEBUG] [main] [PlatformDependent.java:1172][hasJavassist0] -Dio.netty.noJavassist: false
+[20170308 15:41:41.169] [DEBUG] [main] [PlatformDependent.java:1185][hasJavassist0] Javassist: unavailable
+[20170308 15:41:41.170] [DEBUG] [main] [PlatformDependent.java:1186][hasJavassist0] You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[20170308 15:41:41.170] [DEBUG] [main] [PlatformDependent.java:1204][tmpdir0] -Dio.netty.tmpdir: C:\Users\admin\AppData\Local\Temp (java.io.tmpdir)
+[20170308 15:41:41.172] [DEBUG] [main] [PlatformDependent.java:1283][bitMode0] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[20170308 15:41:41.172] [DEBUG] [main] [PlatformDependent.java:115][<clinit>] -Dio.netty.noPreferDirect: false
+[20170308 15:41:41.172] [DEBUG] [main] [PlatformDependent.java:151][<clinit>] io.netty.maxDirectMemory: 1886912512 bytes
+[20170308 15:41:41.183] [DEBUG] [main] [AbstractByteBuf.java:52][<clinit>] -Dio.netty.buffer.bytebuf.checkAccessible: true
+[20170308 15:41:41.187] [DEBUG] [main] [ResourceLeakDetector.java:106][<clinit>] -Dio.netty.leakDetection.level: simple
+[20170308 15:41:41.187] [DEBUG] [main] [ResourceLeakDetector.java:107][<clinit>] -Dio.netty.leakDetection.maxRecords: 4
+[20170308 15:41:41.189] [DEBUG] [main] [ResourceLeakDetectorFactory.java:140][newResourceLeakDetector] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2286778
+[20170308 15:41:41.198] [DEBUG] [main] [PooledByteBufAllocator.java:107][<clinit>] -Dio.netty.allocator.numHeapArenas: 8
+[20170308 15:41:41.199] [DEBUG] [main] [PooledByteBufAllocator.java:108][<clinit>] -Dio.netty.allocator.numDirectArenas: 8
+[20170308 15:41:41.199] [DEBUG] [main] [PooledByteBufAllocator.java:110][<clinit>] -Dio.netty.allocator.pageSize: 8192
+[20170308 15:41:41.199] [DEBUG] [main] [PooledByteBufAllocator.java:115][<clinit>] -Dio.netty.allocator.maxOrder: 11
+[20170308 15:41:41.199] [DEBUG] [main] [PooledByteBufAllocator.java:119][<clinit>] -Dio.netty.allocator.chunkSize: 16777216
+[20170308 15:41:41.199] [DEBUG] [main] [PooledByteBufAllocator.java:120][<clinit>] -Dio.netty.allocator.tinyCacheSize: 512
+[20170308 15:41:41.199] [DEBUG] [main] [PooledByteBufAllocator.java:121][<clinit>] -Dio.netty.allocator.smallCacheSize: 256
+[20170308 15:41:41.200] [DEBUG] [main] [PooledByteBufAllocator.java:122][<clinit>] -Dio.netty.allocator.normalCacheSize: 64
+[20170308 15:41:41.200] [DEBUG] [main] [PooledByteBufAllocator.java:123][<clinit>] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[20170308 15:41:41.200] [DEBUG] [main] [PooledByteBufAllocator.java:124][<clinit>] -Dio.netty.allocator.cacheTrimInterval: 8192
+[20170308 15:41:41.212] [DEBUG] [main] [ByteBufUtil.java:80][<clinit>] -Dio.netty.allocator.type: pooled
+[20170308 15:41:41.213] [DEBUG] [main] [ByteBufUtil.java:89][<clinit>] -Dio.netty.threadLocalDirectBufferSize: 65536
+[20170308 15:41:41.213] [DEBUG] [main] [ByteBufUtil.java:92][<clinit>] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[20170308 15:41:41.227] [INFO] [main] [NERTest.java:22][main]          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| e6 88 90                                        |...             |
++--------+-------------------------------------------------+----------------+
+[20170308 15:41:41.227] [INFO] [main] [NERTest.java:23][main] --------------------
+[20170308 15:42:00.858] [INFO] [main] [NERTest.java:27][main] \u6210
+[20170308 15:42:00.859] [INFO] [main] [NERTest.java:28][main] \61\62\63
+[20170308 15:43:14.077] [INFO] [main] [NERTest.java:21][main] --------------------
+[20170308 15:43:14.124] [DEBUG] [main] [InternalLoggerFactory.java:59][newDefaultFactory] Using Log4J as the default logging framework
+[20170308 15:43:14.134] [DEBUG] [main] [PlatformDependent0.java:74][<clinit>] java.nio.Buffer.address: available
+[20170308 15:43:14.136] [DEBUG] [main] [PlatformDependent0.java:82][<clinit>] sun.misc.Unsafe.theUnsafe: available
+[20170308 15:43:14.136] [DEBUG] [main] [PlatformDependent0.java:91][<clinit>] sun.misc.Unsafe.copyMemory: available
+[20170308 15:43:14.137] [DEBUG] [main] [PlatformDependent0.java:152][<clinit>] java.nio.Bits.unaligned: true
+[20170308 15:43:14.137] [DEBUG] [main] [PlatformDependent0.java:155][<clinit>] java.nio.DirectByteBuffer.<init>(long, int): available
+[20170308 15:43:14.138] [DEBUG] [main] [Cleaner0.java:62][<clinit>] java.nio.ByteBuffer.cleaner(): available
+[20170308 15:43:14.139] [DEBUG] [main] [PlatformDependent.java:923][isWindows0] Platform: Windows
+[20170308 15:43:14.139] [DEBUG] [main] [PlatformDependent.java:1063][javaVersion0] Java version: 8
+[20170308 15:43:14.139] [DEBUG] [main] [PlatformDependent.java:1070][hasUnsafe0] -Dio.netty.noUnsafe: false
+[20170308 15:43:14.140] [DEBUG] [main] [PlatformDependent.java:1097][hasUnsafe0] sun.misc.Unsafe: available
+[20170308 15:43:14.140] [DEBUG] [main] [PlatformDependent.java:1172][hasJavassist0] -Dio.netty.noJavassist: false
+[20170308 15:43:14.141] [DEBUG] [main] [PlatformDependent.java:1185][hasJavassist0] Javassist: unavailable
+[20170308 15:43:14.141] [DEBUG] [main] [PlatformDependent.java:1186][hasJavassist0] You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[20170308 15:43:14.142] [DEBUG] [main] [PlatformDependent.java:1204][tmpdir0] -Dio.netty.tmpdir: C:\Users\admin\AppData\Local\Temp (java.io.tmpdir)
+[20170308 15:43:14.143] [DEBUG] [main] [PlatformDependent.java:1283][bitMode0] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[20170308 15:43:14.144] [DEBUG] [main] [PlatformDependent.java:115][<clinit>] -Dio.netty.noPreferDirect: false
+[20170308 15:43:14.144] [DEBUG] [main] [PlatformDependent.java:151][<clinit>] io.netty.maxDirectMemory: 1886912512 bytes
+[20170308 15:43:14.153] [DEBUG] [main] [AbstractByteBuf.java:52][<clinit>] -Dio.netty.buffer.bytebuf.checkAccessible: true
+[20170308 15:43:14.156] [DEBUG] [main] [ResourceLeakDetector.java:106][<clinit>] -Dio.netty.leakDetection.level: simple
+[20170308 15:43:14.156] [DEBUG] [main] [ResourceLeakDetector.java:107][<clinit>] -Dio.netty.leakDetection.maxRecords: 4
+[20170308 15:43:14.157] [DEBUG] [main] [ResourceLeakDetectorFactory.java:140][newResourceLeakDetector] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1a93a7ca
+[20170308 15:43:14.166] [DEBUG] [main] [PooledByteBufAllocator.java:107][<clinit>] -Dio.netty.allocator.numHeapArenas: 8
+[20170308 15:43:14.167] [DEBUG] [main] [PooledByteBufAllocator.java:108][<clinit>] -Dio.netty.allocator.numDirectArenas: 8
+[20170308 15:43:14.167] [DEBUG] [main] [PooledByteBufAllocator.java:110][<clinit>] -Dio.netty.allocator.pageSize: 8192
+[20170308 15:43:14.167] [DEBUG] [main] [PooledByteBufAllocator.java:115][<clinit>] -Dio.netty.allocator.maxOrder: 11
+[20170308 15:43:14.167] [DEBUG] [main] [PooledByteBufAllocator.java:119][<clinit>] -Dio.netty.allocator.chunkSize: 16777216
+[20170308 15:43:14.167] [DEBUG] [main] [PooledByteBufAllocator.java:120][<clinit>] -Dio.netty.allocator.tinyCacheSize: 512
+[20170308 15:43:14.167] [DEBUG] [main] [PooledByteBufAllocator.java:121][<clinit>] -Dio.netty.allocator.smallCacheSize: 256
+[20170308 15:43:14.168] [DEBUG] [main] [PooledByteBufAllocator.java:122][<clinit>] -Dio.netty.allocator.normalCacheSize: 64
+[20170308 15:43:14.168] [DEBUG] [main] [PooledByteBufAllocator.java:123][<clinit>] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[20170308 15:43:14.168] [DEBUG] [main] [PooledByteBufAllocator.java:124][<clinit>] -Dio.netty.allocator.cacheTrimInterval: 8192
+[20170308 15:43:14.178] [DEBUG] [main] [ByteBufUtil.java:80][<clinit>] -Dio.netty.allocator.type: pooled
+[20170308 15:43:14.179] [DEBUG] [main] [ByteBufUtil.java:89][<clinit>] -Dio.netty.threadLocalDirectBufferSize: 65536
+[20170308 15:43:14.179] [DEBUG] [main] [ByteBufUtil.java:92][<clinit>] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[20170308 15:43:14.194] [INFO] [main] [NERTest.java:22][main]          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| e6 88 90                                        |...             |
++--------+-------------------------------------------------+----------------+
+[20170308 15:43:14.194] [INFO] [main] [NERTest.java:23][main] --------------------
+[20170308 15:43:14.196] [INFO] [main] [NERTest.java:27][main] \u6210
+[20170308 15:43:14.196] [INFO] [main] [NERTest.java:28][main] \61\62\63
+[20170308 15:44:52.820] [INFO] [main] [NERTest.java:21][main] --------------------
+[20170308 15:44:52.873] [DEBUG] [main] [InternalLoggerFactory.java:59][newDefaultFactory] Using Log4J as the default logging framework
+[20170308 15:44:52.880] [DEBUG] [main] [PlatformDependent0.java:74][<clinit>] java.nio.Buffer.address: available
+[20170308 15:44:52.882] [DEBUG] [main] [PlatformDependent0.java:82][<clinit>] sun.misc.Unsafe.theUnsafe: available
+[20170308 15:44:52.883] [DEBUG] [main] [PlatformDependent0.java:91][<clinit>] sun.misc.Unsafe.copyMemory: available
+[20170308 15:44:52.883] [DEBUG] [main] [PlatformDependent0.java:152][<clinit>] java.nio.Bits.unaligned: true
+[20170308 15:44:52.883] [DEBUG] [main] [PlatformDependent0.java:155][<clinit>] java.nio.DirectByteBuffer.<init>(long, int): available
+[20170308 15:44:52.884] [DEBUG] [main] [Cleaner0.java:62][<clinit>] java.nio.ByteBuffer.cleaner(): available
+[20170308 15:44:52.885] [DEBUG] [main] [PlatformDependent.java:923][isWindows0] Platform: Windows
+[20170308 15:44:52.885] [DEBUG] [main] [PlatformDependent.java:1063][javaVersion0] Java version: 8
+[20170308 15:44:52.885] [DEBUG] [main] [PlatformDependent.java:1070][hasUnsafe0] -Dio.netty.noUnsafe: false
+[20170308 15:44:52.886] [DEBUG] [main] [PlatformDependent.java:1097][hasUnsafe0] sun.misc.Unsafe: available
+[20170308 15:44:52.886] [DEBUG] [main] [PlatformDependent.java:1172][hasJavassist0] -Dio.netty.noJavassist: false
+[20170308 15:44:52.887] [DEBUG] [main] [PlatformDependent.java:1185][hasJavassist0] Javassist: unavailable
+[20170308 15:44:52.887] [DEBUG] [main] [PlatformDependent.java:1186][hasJavassist0] You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[20170308 15:44:52.887] [DEBUG] [main] [PlatformDependent.java:1204][tmpdir0] -Dio.netty.tmpdir: C:\Users\admin\AppData\Local\Temp (java.io.tmpdir)
+[20170308 15:44:52.889] [DEBUG] [main] [PlatformDependent.java:1283][bitMode0] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[20170308 15:44:52.889] [DEBUG] [main] [PlatformDependent.java:115][<clinit>] -Dio.netty.noPreferDirect: false
+[20170308 15:44:52.890] [DEBUG] [main] [PlatformDependent.java:151][<clinit>] io.netty.maxDirectMemory: 1886912512 bytes
+[20170308 15:44:52.898] [DEBUG] [main] [AbstractByteBuf.java:52][<clinit>] -Dio.netty.buffer.bytebuf.checkAccessible: true
+[20170308 15:44:52.901] [DEBUG] [main] [ResourceLeakDetector.java:106][<clinit>] -Dio.netty.leakDetection.level: simple
+[20170308 15:44:52.902] [DEBUG] [main] [ResourceLeakDetector.java:107][<clinit>] -Dio.netty.leakDetection.maxRecords: 4
+[20170308 15:44:52.903] [DEBUG] [main] [ResourceLeakDetectorFactory.java:140][newResourceLeakDetector] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1a93a7ca
+[20170308 15:44:52.910] [DEBUG] [main] [PooledByteBufAllocator.java:107][<clinit>] -Dio.netty.allocator.numHeapArenas: 8
+[20170308 15:44:52.910] [DEBUG] [main] [PooledByteBufAllocator.java:108][<clinit>] -Dio.netty.allocator.numDirectArenas: 8
+[20170308 15:44:52.910] [DEBUG] [main] [PooledByteBufAllocator.java:110][<clinit>] -Dio.netty.allocator.pageSize: 8192
+[20170308 15:44:52.910] [DEBUG] [main] [PooledByteBufAllocator.java:115][<clinit>] -Dio.netty.allocator.maxOrder: 11
+[20170308 15:44:52.910] [DEBUG] [main] [PooledByteBufAllocator.java:119][<clinit>] -Dio.netty.allocator.chunkSize: 16777216
+[20170308 15:44:52.911] [DEBUG] [main] [PooledByteBufAllocator.java:120][<clinit>] -Dio.netty.allocator.tinyCacheSize: 512
+[20170308 15:44:52.911] [DEBUG] [main] [PooledByteBufAllocator.java:121][<clinit>] -Dio.netty.allocator.smallCacheSize: 256
+[20170308 15:44:52.911] [DEBUG] [main] [PooledByteBufAllocator.java:122][<clinit>] -Dio.netty.allocator.normalCacheSize: 64
+[20170308 15:44:52.911] [DEBUG] [main] [PooledByteBufAllocator.java:123][<clinit>] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[20170308 15:44:52.911] [DEBUG] [main] [PooledByteBufAllocator.java:124][<clinit>] -Dio.netty.allocator.cacheTrimInterval: 8192
+[20170308 15:44:52.923] [DEBUG] [main] [ByteBufUtil.java:80][<clinit>] -Dio.netty.allocator.type: pooled
+[20170308 15:44:52.923] [DEBUG] [main] [ByteBufUtil.java:89][<clinit>] -Dio.netty.threadLocalDirectBufferSize: 65536
+[20170308 15:44:52.923] [DEBUG] [main] [ByteBufUtil.java:92][<clinit>] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[20170308 15:44:52.938] [INFO] [main] [NERTest.java:22][main]          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| c3 a6 c2 88 c2 90                               |......          |
++--------+-------------------------------------------------+----------------+
+[20170308 15:44:52.939] [INFO] [main] [NERTest.java:23][main] --------------------
+[20170308 15:44:52.941] [INFO] [main] [NERTest.java:27][main] \e6\88\90
+[20170308 15:44:52.941] [INFO] [main] [NERTest.java:28][main] \61\62\63
+[20170308 15:51:26.964] [INFO] [main] [NERTest.java:21][main] --------------------
+[20170308 15:51:27.023] [DEBUG] [main] [InternalLoggerFactory.java:59][newDefaultFactory] Using Log4J as the default logging framework
+[20170308 15:51:27.032] [DEBUG] [main] [PlatformDependent0.java:74][<clinit>] java.nio.Buffer.address: available
+[20170308 15:51:27.034] [DEBUG] [main] [PlatformDependent0.java:82][<clinit>] sun.misc.Unsafe.theUnsafe: available
+[20170308 15:51:27.035] [DEBUG] [main] [PlatformDependent0.java:91][<clinit>] sun.misc.Unsafe.copyMemory: available
+[20170308 15:51:27.035] [DEBUG] [main] [PlatformDependent0.java:152][<clinit>] java.nio.Bits.unaligned: true
+[20170308 15:51:27.035] [DEBUG] [main] [PlatformDependent0.java:155][<clinit>] java.nio.DirectByteBuffer.<init>(long, int): available
+[20170308 15:51:27.037] [DEBUG] [main] [Cleaner0.java:62][<clinit>] java.nio.ByteBuffer.cleaner(): available
+[20170308 15:51:27.038] [DEBUG] [main] [PlatformDependent.java:923][isWindows0] Platform: Windows
+[20170308 15:51:27.038] [DEBUG] [main] [PlatformDependent.java:1063][javaVersion0] Java version: 8
+[20170308 15:51:27.038] [DEBUG] [main] [PlatformDependent.java:1070][hasUnsafe0] -Dio.netty.noUnsafe: false
+[20170308 15:51:27.039] [DEBUG] [main] [PlatformDependent.java:1097][hasUnsafe0] sun.misc.Unsafe: available
+[20170308 15:51:27.039] [DEBUG] [main] [PlatformDependent.java:1172][hasJavassist0] -Dio.netty.noJavassist: false
+[20170308 15:51:27.040] [DEBUG] [main] [PlatformDependent.java:1185][hasJavassist0] Javassist: unavailable
+[20170308 15:51:27.041] [DEBUG] [main] [PlatformDependent.java:1186][hasJavassist0] You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[20170308 15:51:27.041] [DEBUG] [main] [PlatformDependent.java:1204][tmpdir0] -Dio.netty.tmpdir: C:\Users\admin\AppData\Local\Temp (java.io.tmpdir)
+[20170308 15:51:27.043] [DEBUG] [main] [PlatformDependent.java:1283][bitMode0] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[20170308 15:51:27.043] [DEBUG] [main] [PlatformDependent.java:115][<clinit>] -Dio.netty.noPreferDirect: false
+[20170308 15:51:27.044] [DEBUG] [main] [PlatformDependent.java:151][<clinit>] io.netty.maxDirectMemory: 1886912512 bytes
+[20170308 15:51:27.054] [DEBUG] [main] [AbstractByteBuf.java:52][<clinit>] -Dio.netty.buffer.bytebuf.checkAccessible: true
+[20170308 15:51:27.057] [DEBUG] [main] [ResourceLeakDetector.java:106][<clinit>] -Dio.netty.leakDetection.level: simple
+[20170308 15:51:27.058] [DEBUG] [main] [ResourceLeakDetector.java:107][<clinit>] -Dio.netty.leakDetection.maxRecords: 4
+[20170308 15:51:27.059] [DEBUG] [main] [ResourceLeakDetectorFactory.java:140][newResourceLeakDetector] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6d7b4f4c
+[20170308 15:51:27.068] [DEBUG] [main] [PooledByteBufAllocator.java:107][<clinit>] -Dio.netty.allocator.numHeapArenas: 8
+[20170308 15:51:27.068] [DEBUG] [main] [PooledByteBufAllocator.java:108][<clinit>] -Dio.netty.allocator.numDirectArenas: 8
+[20170308 15:51:27.068] [DEBUG] [main] [PooledByteBufAllocator.java:110][<clinit>] -Dio.netty.allocator.pageSize: 8192
+[20170308 15:51:27.068] [DEBUG] [main] [PooledByteBufAllocator.java:115][<clinit>] -Dio.netty.allocator.maxOrder: 11
+[20170308 15:51:27.068] [DEBUG] [main] [PooledByteBufAllocator.java:119][<clinit>] -Dio.netty.allocator.chunkSize: 16777216
+[20170308 15:51:27.069] [DEBUG] [main] [PooledByteBufAllocator.java:120][<clinit>] -Dio.netty.allocator.tinyCacheSize: 512
+[20170308 15:51:27.069] [DEBUG] [main] [PooledByteBufAllocator.java:121][<clinit>] -Dio.netty.allocator.smallCacheSize: 256
+[20170308 15:51:27.069] [DEBUG] [main] [PooledByteBufAllocator.java:122][<clinit>] -Dio.netty.allocator.normalCacheSize: 64
+[20170308 15:51:27.069] [DEBUG] [main] [PooledByteBufAllocator.java:123][<clinit>] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[20170308 15:51:27.069] [DEBUG] [main] [PooledByteBufAllocator.java:124][<clinit>] -Dio.netty.allocator.cacheTrimInterval: 8192
+[20170308 15:51:27.078] [DEBUG] [main] [ByteBufUtil.java:80][<clinit>] -Dio.netty.allocator.type: pooled
+[20170308 15:51:27.079] [DEBUG] [main] [ByteBufUtil.java:89][<clinit>] -Dio.netty.threadLocalDirectBufferSize: 65536
+[20170308 15:51:27.079] [DEBUG] [main] [ByteBufUtil.java:92][<clinit>] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[20170308 15:51:27.091] [INFO] [main] [NERTest.java:22][main]          +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| c3 a6 c2 88 c2 90                               |......          |
++--------+-------------------------------------------------+----------------+
+[20170308 15:51:27.091] [INFO] [main] [NERTest.java:23][main] --------------------
+[20170308 15:53:20.137] [INFO] [main] [NERTest.java:27][main] \e6\88\90
+[20170308 15:53:21.418] [INFO] [main] [NERTest.java:28][main] \61\62\63
