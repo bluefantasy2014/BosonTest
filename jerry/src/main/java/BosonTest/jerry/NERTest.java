@@ -6,6 +6,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
 import common.util.MyByteBufUtil;
+import common.util.StringUtil;
 import io.netty.buffer.ByteBufUtil;
 import io.netty.buffer.Unpooled;
 
@@ -24,7 +25,7 @@ public class NERTest {
 		  
 		  MyByteBufUtil.printHex("成".getBytes("UTF-8"));
 		  
-		  LOG.info(MyByteBufUtil.stringToUnicode("成"));
-		  LOG.info(MyByteBufUtil.stringToUnicode("abc"));
+		  LOG.info(StringUtil.stringToUnicode("我以最快的速度吃了午饭"));
+		  
 	}
 }
